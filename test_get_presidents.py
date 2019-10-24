@@ -21,7 +21,7 @@ def test_get_presidents():
             if (j.find(i) >= 0):
                 found = True
                 break
-        assert found
+        assert found, i + " not found"
 
 
 
